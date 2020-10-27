@@ -1,15 +1,16 @@
 #!/bin/bash
-echo "Seleccione una opción:"
+echo "Seleccione una opciÃ³n:"
 echo "(a)-Listar."
 echo "(b)-DondeEstoy."
-echo "(c)-QuienEsta"
+echo "(c)-QuienEsta."
 read opcion
-if [ $opcion == 'a' ] then
-  ls-a
-elif [ $opcion == 'b' ] then
+if [ "$opcion" == 'a' ]; then
+  ls -a
+elif [ "$opcion" == 'b' ]; then
   pwd
-elif [ $opcion == 'c' ] then
+elif [ "$opcion" == 'c' ]; then
   users
 else
-  echo "Opción errónea."
+  echo "OpciÃ³n errÃ³nea."
+fi
 exit
