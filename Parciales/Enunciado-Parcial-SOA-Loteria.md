@@ -45,11 +45,9 @@ del archivo corresponde al 24/10/2020 y la última al 18/10/2014.
 
 Otro Ejemplo:
 
-Si recibo:
+Si recibo:370
 
-370
-
-Debo Imprimir
+Debo Imprimir:
 
 0
 
