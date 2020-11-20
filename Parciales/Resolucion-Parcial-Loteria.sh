@@ -3,8 +3,8 @@ if [ $# -ne 1 ];then    #Verifico que sea ingresado un solo parámetro.
   echo "INVALID PARAMETERS"
   exit 2
 fi
-numval='^[1-9]+$'   #Representa al rango de enteros positivos a partir del número 1.
-if ! [[ $1 =~numval ]];then   #Verifico que el valor del parámetro sea un número entero positivo.
+numval='^[1-900]+$'   #Representa al rango de enteros positivos entre el 1 y 900.
+if ! [[ $1 =~ $numval ]];then   #Verifico que el valor del parámetro sea un número entero positivo.
   echo "INVALID PARAMETER"
   exit 1
 fi  
@@ -30,3 +30,4 @@ done
 echo $cant
 echo $fecha1
 echo $fecha2
+exit
