@@ -1,5 +1,5 @@
 #!bin/bash
-if [ $# -ne 1 ];then    #Verifico que solo sea ingresado un solo parámetro.
+if [ $# -ne 1 ];then    #Verifico que sea ingresado un solo parámetro.
   echo "INVALID PARAMETERS"
   exit 2
 fi
